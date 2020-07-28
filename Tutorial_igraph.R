@@ -59,8 +59,7 @@ reciprocity(g1)
 
 ##closeness: steps required to access every other vertex
 closeness(g1,mode="all",weights=NA,normalized = T)
-?closeness
-0.25/0.3333333
+
 
 ##betweenness(centrality): number of geodesics (shortest paths) going through a vertex or an edge
 betweenness(g1,directed=T,weights = NA)
